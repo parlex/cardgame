@@ -38,6 +38,7 @@ public class Deck{
 
    public void reNewDeck(){
       initDeck(this.cards);
+      this.usedCards = new ArrayList<Card>();
    }
 
    public String toString(){
@@ -50,4 +51,3 @@ public class Deck{
       return output.substring(0, output.length() - 2);
    }
 }
-
